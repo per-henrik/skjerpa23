@@ -3,8 +3,17 @@
   --rose-dust: #9d5c63ff;
   --periwinkle-crayola: #d6e3f8ff;
   --seashell: #fef5efff;
-  font-size:20px;
   font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+  font-size: 5.9vw;
+}
+h2 {
+  font-size: 3.0vh;
+}
+p {
+  font-size: 2vmin;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=PT+Sans:wght@700&display=swap');
@@ -42,7 +51,6 @@ header li {
 header h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
-  font-size:3rem;
 }
 header a {
   text-decoration: none;
@@ -54,7 +62,6 @@ header a:hover {
 footer {
   border-top:solid var(--rose-dust) 5px;
   text-align:center;
-  font-size:70%;
 }
 
 body, h1, h2, h3, p {
@@ -84,7 +91,6 @@ a {
   justify-content: center;
   color: var(--seashell);
   text-shadow: 5px 5px black;
-  font-size:500%;
   line-height: 100%;
   font-weight: 900;
 }
