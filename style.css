@@ -1,9 +1,10 @@
 :root {
-  --dark-liver: #584b53ff;
+  --dark-liver: rgba(81, 75, 78, 0.511);
   --rose-dust: #9d5c63ff;
   --periwinkle-crayola: #d6e3f8ff;
   --seashell: #fef5efff;
   font-family: 'PT Sans', sans-serif;
+  color:#222222;
 }
 
 h1 {
@@ -12,8 +13,8 @@ h1 {
 h2 {
   font-size: 4.0vh;
 }
-p {
-  font-size: 3vh;
+p, li {
+  font-size: 3vw;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=PT+Sans:wght@700&display=swap');
@@ -30,19 +31,24 @@ main, header, footer {
 header {
   background-color:var(--dark-liver);
   color: var(--seashell);
-  display:flex;
   align-items: center;
   justify-content: center;
   justify-content: space-between;
   gap: 1%;
+  text-align:center;  
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+header img {
+  width:30%;
 }
 
 header ul{
-  display:flex;
+  display:none;
   list-style: none;
   gap: 5vw;
+  font-size:2vw;
 }
-
 header li {
   display:flex;
   justify-content: space-between;
@@ -51,6 +57,7 @@ header li {
 header h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
+  color:#222222;
 }
 header a {
   text-decoration: none;
@@ -60,7 +67,7 @@ header a:hover {
 }
 
 footer {
-  border-top:solid var(--rose-dust) 5px;
+  border-top:solid var(--dark-liver) 5px;
   text-align:center;
 }
 
@@ -81,7 +88,7 @@ a {
 
 #frontpage #c2a {
   background-color:rgb(35, 108, 142);
-  background-image: url('/ship\ website.JPG');
+  background-image: url('/shipwebsite.JPG');
   background-size: cover;
   margin:-2em -6% 1em ;
   overflow:hidden
@@ -107,4 +114,26 @@ a {
   text-decoration: none;
   margin: 10% 0;
 }
-  
+#promisse p {
+  display:flex;
+}
+#promisse img {
+  width:5vw;
+  padding-right:1vw;
+}
+
+section {
+  padding-bottom:5vw;
+  padding-top:3vw;
+}
+
+#method img {
+  width:1em;
+}
+
+#method {
+  background: rgb(157,92,99);
+background: linear-gradient(90deg, rgba(157,92,99,1) 0%, rgba(164,121,126,1) 28%, rgba(157,92,103,1) 100%);
+ margin:0 -6%;
+ padding:5%;
+}
