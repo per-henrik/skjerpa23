@@ -4,7 +4,7 @@
   --periwinkle-crayola: #d6e3f8ff;
   --seashell: #fef5efff;
   font-family: 'PT Sans', sans-serif;
-  color:#222222;
+  color:#111111;
 }
 
 h1 {
@@ -29,7 +29,6 @@ main, header, footer {
 }
 
 header {
-  background-color:var(--dark-liver);
   color: var(--seashell);
   align-items: center;
   justify-content: center;
@@ -40,7 +39,8 @@ header {
   flex-direction: row;
 }
 header img {
-  width:30%;
+  width:50%;
+  max-width:200px;
 }
 
 header ul{
@@ -57,7 +57,7 @@ header li {
 header h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
-  color:#222222;
+  color:#111111;
 }
 header a {
   text-decoration: none;
@@ -69,11 +69,16 @@ header a:hover {
 footer {
   border-top:solid var(--dark-liver) 5px;
   text-align:center;
+  background: linear-gradient(100deg, rgba(68, 67, 67, 0.511) 0%, rgba(174, 153, 163, 0.511) 28%, rgba(81, 75, 78, 0.511) 100%);
+
 }
 
 footer p, address {
   padding-bottom:3vw;
-  font-size: 2vw;
+}
+
+footer>* {
+  font-size: 3vw;
 }
 
 body, h1, h2, h3, p {
@@ -123,8 +128,8 @@ a {
 }
 
 section {
-  padding-bottom:5vw;
-  padding-top:3vw;
+  padding-bottom:7vw;
+  padding-top:7vw;
 }
 
 #method img {
@@ -133,7 +138,15 @@ section {
 
 #method {
   background: rgb(157,92,99);
-background: linear-gradient(90deg, rgba(157,92,99,1) 0%, rgba(164,121,126,1) 28%, rgba(157,92,103,1) 100%);
- margin:0 -6%;
- padding:5%;
+  background: linear-gradient(100deg, rgba(157,92,99,1) 0%, rgb(162, 106, 113) 28%, rgba(157,92,103,1) 100%);
+  margin:0 -6%;
+  padding:5%;
+}
+
+footer #nonag {
+  font-size: 2vw;
+}
+
+.nounderline {
+  text-decoration: none;
 }
