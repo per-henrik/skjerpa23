@@ -150,3 +150,31 @@ footer #nonag {
 .nounderline {
   text-decoration: none;
 }
+
+#contactform {
+  background-color:red;
+  padding:8vw;
+  border-radius:1.7vw;
+}
+
+#contactform input,
+#contactform textarea {
+  padding:1vw;
+  border:none;
+  border-radius: 1vw;
+  width:70%;
+  display: block ;
+  margin: 2vw 0;
+}
+#contactform input[type=submit] {
+  width:30%;
+}
+@media only screen and (max-width: 600px) {
+  #contactform input,
+  #contactform textarea {
+    width:95%;
+  }
+  #contactform {
+    padding:1vw;
+  }
+}
