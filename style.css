@@ -178,3 +178,14 @@ footer #nonag {
     padding:1vw;
   }
 }
+
+#thankyou {
+  display:none;
+  background-color: greenyellow;
+  margin:0 -30%;
+  text-align: center;
+}
+
+#thankyou:target {
+  display:block;
+}
